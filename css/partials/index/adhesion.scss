@@ -1,5 +1,4 @@
 #adhesion{
-    height: 20em;
     background-color: white;
 
     padding: 100px 50px;
@@ -16,10 +15,14 @@
         p{
             font-weight: bold;
             font-size: 2em;
+            margin: 0px;
+            padding-bottom: 50px;
         }
 
-        button{
+        a{
             font-family: 'Rubik', sans-serif;
+
+            text-decoration: none;
 
             background-color: $accent-color;
             border: 3px solid $accent-color;
