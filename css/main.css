@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Rubik");
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+body {
+  color: #444444;
+  font-family: 'Raleway', sans-serif; }
+
+#index-content header {
+  height: 100vh;
+  width: 100%;
+  background-color: black; }
+
+#index-content #adhesion {
+  height: 20em;
+  background-color: white;
+  text-align: center; }
+  #index-content #adhesion p {
+    font-weight: bold;
+    font-size: 2em; }
+  #index-content #adhesion button {
+    font-family: 'Rubik', sans-serif;
+    background-color: #FFA000;
+    border: 3px solid #FFA000;
+    padding: 6px 30px;
+    border-radius: 10em;
+    font-size: 1.5em;
+    color: white; }
+    #index-content #adhesion button:hover, #index-content #adhesion button:active, #index-content #adhesion button:focus {
+      background: none;
+      border: 3px solid #FFA000;
+      color: #FFA000; }
