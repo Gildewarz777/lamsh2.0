@@ -3,7 +3,12 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway");
 body {
   color: #444444;
-  font-family: 'Raleway', sans-serif; }
+  font-family: 'Raleway', sans-serif;
+  margin: 0px;
+  top: 0; }
+
+h2 {
+  margin: 0; }
 
 #index-content header {
   height: 100vh;

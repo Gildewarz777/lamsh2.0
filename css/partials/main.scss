@@ -1,6 +1,11 @@
 body{
     color: $primary-text-color;
     font-family: 'Raleway', sans-serif;
+    margin: 0px;
+    top: 0;
+}
+h2{
+    margin:0;
 }
 
 @import "index/index.scss";
