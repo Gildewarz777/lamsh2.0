@@ -13,19 +13,31 @@ body {
 #index-content #adhesion {
   height: 20em;
   background-color: white;
-  text-align: center; }
-  #index-content #adhesion p {
-    font-weight: bold;
-    font-size: 2em; }
-  #index-content #adhesion button {
-    font-family: 'Rubik', sans-serif;
-    background-color: #FFA000;
-    border: 3px solid #FFA000;
-    padding: 6px 30px;
-    border-radius: 10em;
-    font-size: 1.5em;
-    color: white; }
-    #index-content #adhesion button:hover, #index-content #adhesion button:active, #index-content #adhesion button:focus {
-      background: none;
+  padding: 100px 50px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  #index-content #adhesion .content-wrapper {
+    text-align: center;
+    width: 100%; }
+    #index-content #adhesion .content-wrapper p {
+      font-weight: bold;
+      font-size: 2em; }
+    #index-content #adhesion .content-wrapper button {
+      font-family: 'Rubik', sans-serif;
+      background-color: #FFA000;
       border: 3px solid #FFA000;
-      color: #FFA000; }
+      padding: 6px 30px;
+      border-radius: 10em;
+      font-size: 1.5em;
+      color: white; }
+      #index-content #adhesion .content-wrapper button:hover, #index-content #adhesion .content-wrapper button:active, #index-content #adhesion .content-wrapper button:focus {
+        background: none;
+        border: 3px solid #FFA000;
+        color: #FFA000; }

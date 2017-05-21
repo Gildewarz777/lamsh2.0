@@ -2,27 +2,37 @@
     height: 20em;
     background-color: white;
 
-    text-align: center;
+    padding: 100px 50px;
 
-    p{
-        font-weight: bold;
-        font-size: 2em;
-    }
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 
-    button{
-        font-family: 'Rubik', sans-serif;
+    .content-wrapper{
 
-        background-color: $accent-color;
-        border: 3px solid $accent-color;
-        padding: 6px 30px;
-        border-radius: 10em;
-        font-size: 1.5em;
-        color: white;
+        text-align: center;
+        width: 100%;
 
-        &:hover, &:active, &:focus{
-            background: none;
+        p{
+            font-weight: bold;
+            font-size: 2em;
+        }
+
+        button{
+            font-family: 'Rubik', sans-serif;
+
+            background-color: $accent-color;
             border: 3px solid $accent-color;
-            color: $accent-color;
+            padding: 6px 30px;
+            border-radius: 10em;
+            font-size: 1.5em;
+            color: white;
+
+            &:hover, &:active, &:focus{
+                background: none;
+                border: 3px solid $accent-color;
+                color: $accent-color;
+            }
         }
     }
 }
